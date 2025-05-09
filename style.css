@@ -2,7 +2,7 @@
 
     --main-color: #00eeff;
     --text-color: #ffffff;
-    --bg-color-01: #1f242d;
+    --bg-color-01: #1f232c;
     --bg-color-02: #343946;
     --color-00: #0000001a;
     --color-01: #999999;
@@ -27,7 +27,7 @@
 
 html {
 
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 
 }
@@ -90,3 +90,21 @@ header {
     color: var(--main-color);
      
 }
+
+section {
+
+    min-height: 100vh;
+    padding: 6rem 6rem 2rem;
+
+}
+
+.home, .about {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+
